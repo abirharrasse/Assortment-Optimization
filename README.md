@@ -1,6 +1,7 @@
 # A Comprehensive Study of Assortment Optimization with Substitution and Uncertainty: Introducing a Machine Learning Heuristic
 
 Welcome to this Assortment Optimization repository! This project showcases the outcomes of my internship where we focused on solving *assortment optimization* challenges using machine learning (ML) techniques. The primary aim was to enhance retail assortment planning by addressing *assortment-based* and *stock-out-based substitutions*, while also incorporating *stochastic modeling* for robust decision-making.
+This is the code repo for the [Comprehensive Study of Assortment Optimization with Substitution and Uncertainty paper](https://hal.science/hal-04182275)
 
 ## Key Features
 
@@ -12,14 +13,29 @@ Welcome to this Assortment Optimization repository! This project showcases the o
 
 ## Contents
 
-- `/code`: This directory contains code samples and scripts showcasing the implementation of the ML heuristic, assortment-based substitutions, and stochastic modeling techniques.
+- `/Stochastic setting`: This directory contains code samples and scripts showcasing the implementation of the stochastic formulation of the problem. Here, both assortment based and stock-out based substitutions are taken into consideration.
 
-- `/examples`: Find in the report practical examples that demonstrate the application of the developed solutions. These examples provide insights into the optimization process.
-- `/A Comprehensive Study of Assortment Optimization with Substitution and Uncertainty: Introducing a Machine Learning Heuristic.pdf`: A comprehensive research report detailing the methodologies, experiments, and findings of the internship project. This report provides a deep dive into the technical aspects and results.
+- `/Deterministic/Assortment Based Substitution Formulation`: In this directory, you will find the code to implement an exact algorithm using Xpress Solver to solve the assortment problem taking into consideration only the assortment based substitution (in the deterministic case, stock-out based substitution doesn't make much sense).You will find some tests that were run to assess the formulation too.
+   
+- `/Deterministic/Our heuristic`:This directory contains the codes for the scoring algorithm described in the research paper, the ML algorithm and the final results consisting in the assortment chosen.
 
 ## Getting Started
 
 To explore the code, solutions, and examples, feel free to clone this repository. You can access [the detailed research report](https://hal.science/hal-04182275) which contains a thorough exploration of the methodologies, experiments, and outcomes, offering a holistic view of the project from inception to results.
+
+To use the codes, your dataset of products should contain the following:
+
+-**demand**: the average demand value per consumer.
+
+-**price**: the price of the product.
+
+-**cost**: the inventory cost induced by the product.
+
+-**volume**: the volume of each unit of the product.
+
+-**$(\alpha_{ij})_{i, j \in N}$**: the assortment based substitution matrix.
+
+-**$(\beta_{ij})_{i, j \in N}$**: the stock_out substitution matrix.
 
 ## Citation
 
