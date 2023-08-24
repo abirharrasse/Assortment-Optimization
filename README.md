@@ -1,6 +1,6 @@
 # A Comprehensive Study of Assortment Optimization with Substitution and Uncertainty: Introducing a Machine Learning Heuristic
 
-Welcome to this Assortment Optimization repository! This project showcases the outcomes of my internship where we focused on solving assortment optimization challenges using machine learning (ML) techniques. The primary aim was to enhance retail assortment planning by addressing assortment-based and stock-out-based substitutions, while also incorporating stochastic modeling for robust decision-making.
+Welcome to this Assortment Optimization repository! This project showcases the outcomes of my internship where we focused on solving *assortment optimization* challenges using machine learning (ML) techniques. The primary aim was to enhance retail assortment planning by addressing *assortment-based and stock-out-based substitutions*, while also incorporating *stochastic modeling* for robust decision-making.
 
 ## Key Features
 
@@ -19,7 +19,7 @@ Welcome to this Assortment Optimization repository! This project showcases the o
 
 ## Getting Started
 
-To explore the code, solutions, and examples, feel free to clone this repository. You can access [the detailed research report](https://hal.science/hal-04182275).
+To explore the code, solutions, and examples, feel free to clone this repository. You can access [the detailed research report](https://hal.science/hal-04182275) which contains a thorough exploration of the methodologies, experiments, and outcomes, offering a holistic view of the project from inception to results.
 
 ## Citation
 
