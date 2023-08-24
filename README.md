@@ -19,7 +19,7 @@ Welcome to this Assortment Optimization repository! This project showcases the o
 
 ## Getting Started
 
-To explore the code, solutions, and examples, feel free to clone this repository. You can access the detailed research report in the `A Comprehensive Study of Assortment Optimization with Substitution and Uncertainty: Introducing a Machine Learning Heuristic` file.
+To explore the code, solutions, and examples, feel free to clone this repository. You can access [the detailed research report](https://hal.science/hal-04182275).
 
 ## Citation
 
