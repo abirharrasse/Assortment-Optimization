@@ -17,7 +17,7 @@ This is the code repo for the [Comprehensive Study of Assortment Optimization wi
 
 - `/Deterministic/Assortment Based Substitution Formulation`: In this directory, you will find the code to implement an exact algorithm using Xpress Solver to solve the assortment problem taking into consideration only the assortment based substitution (in the deterministic case, stock-out based substitution doesn't make much sense).You will find some tests that were run to assess the formulation too.
    
-- `/Deterministic/Our heuristic`:This directory contains the codes for the scoring algorithm described in the research paper, the ML algorithm and the final results consisting in the assortment chosen.
+- `/Deterministic/Our heuristic`:This directory contains the codes for the scoring algorithm described in the research report, the ML algorithm and the final results consisting in the assortment chosen.
 
 ## Getting Started
 
